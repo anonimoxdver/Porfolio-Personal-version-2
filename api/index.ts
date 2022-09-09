@@ -1,0 +1,1 @@
+export { default as messagesApi } from './apiMessages';
