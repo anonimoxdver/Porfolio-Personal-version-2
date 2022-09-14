@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import { Grid, Text, Image } from '@nextui-org/react'
 
-
 export const Footer = () => {
   return (
     <Grid.Container  css={{ backgroundColor: '$gray100'}} justify='center'>
@@ -19,7 +18,6 @@ export const Footer = () => {
                     height={30}
                 />
             </Link>
-
                 <Link href='https://www.linkedin.com/in/david-duarte-5968b61ba/' passHref  >
                 <Image 
                     src='https://res.cloudinary.com/dsii7wbi4/image/upload/v1662588379/porfolio/descarga_1_sjuey8.jpg' 
@@ -27,12 +25,8 @@ export const Footer = () => {
                     width={30} 
                     height={30}
                 />   
-            </Link>
-            
-          
-                     
+            </Link>         
         </Grid>
-
     </Grid.Container>
   )
 }

@@ -2,6 +2,7 @@ import { Button, Card, Grid, Input, Loading, Text, Textarea } from '@nextui-org/
 import axios from 'axios'
 import  { useState, useMemo } from 'react'
 import { messagesApi } from '../../api'
+import { getProyectBypath } from '../../utils'
 import { validateData } from '../../utils/validations'
 
 
@@ -58,7 +59,6 @@ export const Contact = () => {
 
         try {
             const {data} = await messagesApi.post('/Messages/message', { name, email, message });
-            console.log({ data })
             setValue({ email: '', message: '', name: '' })
             setEndData(data)
            console.log({ endData })

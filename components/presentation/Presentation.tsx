@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 export const Presentation = () => {
   return (
     <Grid.Container >
-      <Grid  xs={12} sm={6} md={6} lg={6} xl={6} >
+      <Grid xs={12} sm={6} md={6} lg={6} xl={6} >
         <div >
           <Text 
             h1
