@@ -17,3 +17,25 @@
     border-top: 0px solid transparent;
     border-bottom: 100px solid transparent;
 }
+
+.titleContent {
+    display: block;
+    opacity: 0;
+    animation: revealText .5s forwards;
+  }
+  .titleSecont {
+    animation-delay: 4s;
+  }
+
+  @keyframes revealText {
+    from {
+      transform: translateY(22px);
+  
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+

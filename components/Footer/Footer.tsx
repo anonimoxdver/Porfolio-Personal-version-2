@@ -20,7 +20,7 @@ export const Footer = () => {
             </Link>
                 <Link href='https://www.linkedin.com/in/david-duarte-5968b61ba/' passHref  >
                 <Image 
-                    src='https://res.cloudinary.com/dsii7wbi4/image/upload/v1662588379/porfolio/descarga_1_sjuey8.jpg' 
+                    src='https://res.cloudinary.com/dsii7wbi4/image/upload/v1663381768/porfolio/174857_egbsyy.png' 
                     alt='linkedin' 
                     width={30} 
                     height={30}

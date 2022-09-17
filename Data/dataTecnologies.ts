@@ -36,7 +36,7 @@ export const data: SeedData = {
             title: "JavaScript",
         },
         {
-            image: 'https://res.cloudinary.com/dsii7wbi4/image/upload/v1650148926/porfolio/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e2a4242.1423638015246930701731_1_ctuecs.jpg',
+            image: 'https://res.cloudinary.com/dsii7wbi4/image/upload/v1663381511/porfolio/logo-hexagon-card_r3bgaj.png',
             title: "Node.js",
         },
         {
@@ -48,7 +48,7 @@ export const data: SeedData = {
             title: "TypeScript",
         },
         {
-            image: 'https://res.cloudinary.com/dsii7wbi4/image/upload/v1650143428/porfolio/kisspng-mongodb-logo-database-nosql-postgresql-how-to-create-an-outstanding-tech-stack-clickup-bl-5c391bdf9cff48.4731136215472465596431_zkhj8b.jpg',
+            image: 'https://res.cloudinary.com/dsii7wbi4/image/upload/v1663381625/porfolio/MongoDB-Emblem_gzad6d.jpg',
             title: "MongoDB",
         },
         {
