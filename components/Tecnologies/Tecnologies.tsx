@@ -22,7 +22,7 @@ export const Tecnologies:FC = () => {
                   </Grid.Container>
               
                     
-                    <ListOfTecnologies TecnologiesData={ data.TecnologiesData } state={ state } />    
+                    <ListOfTecnologies TecnologiesData={ data.TecnologiesData!  } state={ state } />    
                 </Grid>
             </Grid.Container>     
         <Grid className={ style.tecnoTrianguloRigth }></Grid>   
